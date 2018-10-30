@@ -13,6 +13,8 @@
     </head>
     <body>
         <h1>No steve here son! php</h1>
+
+        <a href="public/index.php" >ste</a>
         
         <script src="" async defer></script>
     </body>
