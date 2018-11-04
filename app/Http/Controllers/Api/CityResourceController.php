@@ -14,6 +14,9 @@ class CityResourceController extends Controller
      */
     public function index()
     {
+
+
+        
         return 'steve';
     }
 
