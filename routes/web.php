@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage.home');
+});
+
+
+Route::get('/js/data.json', function(){
+    $path = 'C:\Users\lennart\bootcamp\laravel_test\resources\js\data.json';
+    return response()->file($path);
+
 });
